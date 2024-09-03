@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> My First Webpage  </title>
+<link rel="stylesheet"href="style.css">
+</head>
+<body>
+Welcome to My Webpage
+ <p style=" background-color: rgb(37, 252, 37)">  I am Nikita lalwani.Iam from Bhopal.
+    I have completed my schooling from Deepmala Pagarani Sanskar Public School.
+Currently I am pursuing B.tech is CSE from Oriental College Of  Technology. 
+</p>
+<img height="160" src="image.1.jpg" alt="web development image">
+<p><a target="_blank" href="https://www.google.com">open google</a></p>
+<h1> unordered list of hobbies </h1>
+<ul type="square" > 
+<li> reading </li>
+<li> learning </li>
+<li> art and craft </li>
+</ul>
+<h1> lets learn forms </h1>
+<form>
+    <label for="Username">Username:</label>
+    
+ <input type="text" name="userame" placeholder="enter your name" id="username" required> 
+<br>
+<lable for="email">email:</lable>
+<input type="text" name="email" placeholder="enter your email" id="email" required>
+<br>
+<lable for="password">password:</lable>
+<input type="password" name="password" placeholder="enter your password" id="password" required>
+<br>
+<lable for="subscribe">subscribe to newsletter</lable>
+<input type="checkbox" name="subscribe" id="subscribe" value="yes">
+<br>
+<p> choose your favourite color </p>
+<input type="radio" name="color" id="color red" value="red"
+<lable for="color red"> red </lable>
+<br>
+<input type="radio" name="color" id="color yellow" value="yellow">
+<lable for="color yellow">yellow</lable>
+<br>
+<input type="radio" name="color" id="color white" value="white">
+<lable for="color white">white</lable>
+<br>
+<label for="country">Choose your country</label>
+<select id="country" name="country">
+    <option value="India">India</option>
+    <option value="America">America</option>
+    <option value="England">England</option>
+    <option value="Asia">Asia</option>
+</select>
+<br>
+<lable for="contact number"> contact number</lable>
+<input type="tel" id="contact" name="contact" pattern="(0-9) (10)"required>
+<br>
+<lable for="comment"> Enter your Comment </lable>
+<br>
+<textarea name="comment" id="comment"></textarea>
+<br>
+<button type="submit"> submit </button>
+</form>
+<h2>  simple tables</h1>
+<table>
+    <tbody>
+    <tr>
+    <th>Name</th>
+    <th>Marks</th>
+    <th>result</th>
+    </tr>
+    <tr>
+        <td>Nikita</td>
+        <td>95</td>
+        <td>pass</td>
+    </tr>
+<tr>
+    <td>Muskan</td>
+    <td>59</td>
+    <td>fail</td>
+</tr>
+</tbody>
+</table>
+<h2>border table</h2>
+<table>
+    <tbody>
+        <table border="5" cellspacing="10" cellpadding="1 2">
+<tr>
+    <th>Name</th>
+    <th>Gender</th>
+    <th>Class</th>
+</tr>
+<tr>
+    <td>Nishi</td>
+    <td>Female</td>
+    <td>12 th</td>
+</tr>
+<tr>
+    <td>Mohan</td>
+    <td>Male</td>
+    <td>12 th</td>
+</tr>
+        
+    </tbody>
+
+</table>
+<h2> colspan table</h2>
+<table>
+<tbody>
+<table border="2"
+<tr>
+    <th>Name</th>
+    <th>Semester</th>
+    <th >Enrollement</th>
+    <th >Dob</th>
+    <th colspan="2"> Course 
+        and Duration
+    </th>
+</tr>
+<tr>
+<td>Nisha</td>
+<td rowspan="3">3 rd</td>
+<td>0126</td>
+<td rowspan="2"> 20/3/2002</td>
+<td > Java</td>
+<td> 1 sept-30 dec</td>
+</tr>
+<tr>
+<td>Raj</td>
+<td>0127</td>
+<td rowspan="2">python</td>
+<td rowspan="2" > 15 sept-15 oct</td>
+</tr>
+<tr>
+<td>Mehek</td>
+<td>0128</td>
+<td>1/1/2002</td>    
+</tr>
+</tbody>
+</table>
+<table>
+<table border="3">
+ <!-- Caption -->
+<caption>Employee Information</caption <!-- Table Header -->
+<thead>
+ <tr>
+<th>ID</th>
+<th>Name</th>
+<th>Position</th>
+<th>Salary</th>
+ </tr>
+ </thead>
+    
+<!-- Table Body -->
+<tbody>
+ <tr>
+<td>1</td>
+<td>Alice</td>
+<td>Developer</td>
+<td>$80,000</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Bob</td>
+<td>Designer</td>
+<td>$70,000</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Carol</td>
+<td>Manager</td>
+<td>$90,000</td>
+</tr>
+</tbody>
+    
+<!-- Table Footer -->
+<tfoot>
+<tr>
+<td colspan="3">Total Employees</td>
+ <td>3</td>
+ </tr>
+ </tfoot>
+ </table>
+</table>
+</body>
+</html>
